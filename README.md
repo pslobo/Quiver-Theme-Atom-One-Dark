@@ -6,10 +6,10 @@ A Dark theme for [Quiver](https://itunes.apple.com/app/quiver-programmers-notebo
 
 ## Instalation
 
-1. Either clone this repository or simply download the theme's json file;
+1. Either clone this repository or simply download the theme's [json file](https://raw.githubusercontent.com/pslobo/Quiver-Theme-Atom-One-Dark/master/Atom%20One%20Dark.json);
 2. Then open settings, choose **Load Theme** and select the json file.
 
- 
+
 If you'd like to help, read the [documentation](https://github.com/HappenApps/Quiver/wiki/How-to-Design-a-Custom-Theme) on how to create a custom theme and then start hacking. I'm sure it'll be glaringly obvious, but CSS isn't my strong suite so there is much room for improvement.
 
 ## TODO
