@@ -1,4 +1,4 @@
-# Quiver Theme — Atom One Dark
+# Quiver Theme — One Dark
 
 A Dark theme for [Quiver](https://itunes.apple.com/app/quiver-programmers-notebook/id866773894?ls=1&mt=12&at=11l5Lz) based on Atom's [One Dark UI](https://github.com/atom/one-dark-ui).
 
@@ -12,8 +12,31 @@ A Dark theme for [Quiver](https://itunes.apple.com/app/quiver-programmers-notebo
 
 If you'd like to help, read the [documentation](https://github.com/HappenApps/Quiver/wiki/How-to-Design-a-Custom-Theme) on how to create a custom theme and then start hacking. I'm sure it'll be glaringly obvious, but CSS isn't my strong suite so there is much room for improvement.
 
+## Syntax Highligthing
+Quiver uses [Ace Editor](https://github.com/ajaxorg/ace) and therefore relies on existing themes for Syntax highligting. Unfortunately, none of the existing syntax themes look good with One Dark and therefore I've started working on porting the theme.
+
+Want to help/hack/test the syntax theme? Easy!
+
+1. Download or clone [Ace Editor](https://github.com/ajaxorg/ace);
+2. Place `one-dark.css` and `one-dark.js` in `ace-master/lib/ace/theme`
+3. Edit any of the existing demos in demo directory and change `editor.setTheme("ace/theme/some_theme");` to `editor.setTheme("ace/theme/one_dark");`
+4. Open the demo file you just edited in your browser of choice to test;
+5. Now you can hack `one_dark.css` and see the results of your work.
+
+## ⚠️ Experimental ⚠️
+
+Syntax themes seem to be hardcoded into Quiver and until I've got a decent enough version that Yaogang Lian can include in Quiver, the only way to test/use this in Quiver is through and small hack.
+So, if you like living on the edge and are dying to see this working in Quiver, then follow these steps.
+
+While I'm not responsible if this breaks anything, I have been testing this already and as far as I can tell, no kittens have been harmed so far.
+
+1. Open Finder, right click (ctrl+click) on Quiver and choose `Show Package Contents` from the context menu;
+2. Place `theme-tomorrow_night_eighties.js` in `Contents/Resources/html-build/vendor/ace`and enter your password when requested;
+3. Open quiver settings and choose `Tomorrow Night Eighties` theme for code cell.
+
+
 ## TODO
 
-1. Improve syntax highligting for LaTEX and diagram cell. Colors still seem a little off;
+1. Improve syntax highligting in the editor view for LaTEX and diagram cell. Colors still seem a little off;
 2. Work on Preview, Presentation and Export themes;
 3. !!Create syntax highligting for Ace Editor so that we have code cell to match the theme.
