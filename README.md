@@ -19,8 +19,8 @@ Want to help/hack/test the syntax theme? Easy!
 
 1. Download or clone [Ace Editor](https://github.com/ajaxorg/ace);
 2. Place `one-dark.css` and `one-dark.js` in `ace-master/lib/ace/theme`
-3. Edit any of the existing demos in demo directory and change `editor.setTheme("ace/theme/some_theme");` to `editor.setTheme("ace/theme/one_dark");`
-4. Open the demo file you just edited in your browser of choice to test;
+3. Edit `ace-master/lib/ace/ext/themelist.js` and add `["One Dark"              ,"one_dark"                 ,  "dark"],` to `var themeData`
+3. Open `kitchen-sink.html` in the root folder. Choose One Dark theme.
 5. Now you can hack `one_dark.css` and see the results of your work.
 
 ## ⚠️ Experimental ⚠️
