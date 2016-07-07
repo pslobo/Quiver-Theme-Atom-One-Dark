@@ -48,11 +48,10 @@
 }
 
 .ace-one-dark .ace_invisible {
-  color: #52524d
+  color: #3B4048
 }
 
 .ace-one-dark .ace_entity.ace_name.ace_tag,
-/*.ace-one-dark .ace_keyword,*/
 .ace-one-dark .ace_meta.ace_tag,
 .ace-one-dark .ace_constant,
 .ace-one-dark .ace_storage {
@@ -68,12 +67,16 @@
   color: #ABB2BF
 }
 
+.ace-one-dark .ace_constant.ace_support.ace_fonts,
 .ace-one-dark .ace_constant.ace_character,
+.ace-one-dark .ace_constant.ace_support,
 .ace-one-dark .ace_constant.ace_language,
 .ace-one-dark .ace_constant.ace_numeric,
 .ace-one-dark .ace_constant.ace_other {
   color: #D19A66
 }
+
+
 
 .ace-one-dark .ace_invalid {
   color: #F8F8F0;
@@ -85,13 +88,14 @@
   background-color: #AE81FF
 }
 
-.ace-one-dark .ace_support.ace_constant,
 .ace-one-dark .ace_support.ace_type{
     color: #ABB2BF
 }
 
+.ace-one-dark .ace_constant.ace_language.ace_escape,
+.ace-one-dark .ace_keyword.ace_operator,
 .ace-one-dark .ace_support.ace_function {
-  color: #66D9EF
+  color: #56B6C2
 }
 
 .ace-one-dark .ace_fold {
@@ -115,6 +119,9 @@
   color: #D19A66
 }
 
+.ace-one-dark .ace_string,
+.ace-one-dark .ace_list.ace_markup,
+.ace-one-dark .ace_constant.ace_language.ace_escape .ace_string,
 .ace-one-dark .ace_string.ace_attribute-value {
     color: #98C379
 }
@@ -127,12 +134,9 @@
     color: #ABB2BF;
 }
 
-.ace-one-dark .ace_variable.ace_parameter {
-  font-style: italic;
-  color: #FD971F
-}
-
-.ace-one-dark .ace_string {
+/*.ace-one-dark .ace_string, */
+.ace-one-dark .ace_identifier,
+.ace-one-dark .ace_variable.ace_parameter{
   color: #ABB2BF
 }
 
