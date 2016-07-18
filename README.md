@@ -37,6 +37,6 @@ While I'm not responsible if this breaks anything, I have been testing this alre
 
 ## TODO
 
-1. Improve syntax highligting in the editor view for LaTEX and diagram cell. Colors still seem a little off;
-2. Work on Preview, Presentation and Export themes;
-3. !!Create syntax highligting for Ace Editor so that we have code cell to match the theme.
+- [x] !!Create syntax highligting for Ace Editor so that we have code cell to match the theme.
+- [] Improve syntax highligting in the editor view for LaTEX and diagram cell. Colors still seem a little off;
+- [] Work on Preview, Presentation and Export themes;
